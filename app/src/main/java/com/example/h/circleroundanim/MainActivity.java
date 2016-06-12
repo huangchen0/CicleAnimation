@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         imgSearch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                CircleAnimation circleAnimation = new CircleAnimation(150,false);
+                CircleAnimation circleAnimation = new CircleAnimation(120,false);
                 circleAnimation.setRepeatMode(Animation.RESTART);
                 circleAnimation.setRepeatCount(-1);
                 circleAnimation.setDuration(1000);
